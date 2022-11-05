@@ -1,9 +1,22 @@
 #newindex {
     position: absolute;
     top: 20%;
+
 }
 
 .stacks {
     border: 2px solid white;
 
+}
+
+.Minimal i {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+h5:hover {
+    color: green;
 }
