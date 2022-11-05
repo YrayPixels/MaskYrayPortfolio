@@ -63,3 +63,10 @@ h5:hover {
     transform: rotate(360deg);
     color: gold;
 }
+
+@media only screen and (max-width: 443px) {
+    .Techy i {
+        height: 40px;
+    }
+
+}
