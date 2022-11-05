@@ -6,7 +6,7 @@
 
 .stacks {
     border: 2px solid white;
-
+    padding: 10px;
 }
 
 .Minimal i {
@@ -64,9 +64,4 @@ h5:hover {
     color: gold;
 }
 
-@media only screen and (max-width: 443px) {
-    .Techy i {
-        height: 40px;
-    }
-
-}
+@media only screen and (max-width: 443px) {}
