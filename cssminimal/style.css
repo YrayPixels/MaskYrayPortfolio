@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,800;0,900;1,700&display=swap');
+
+* {
+    /* border: 1px solid rgb(227, 227, 248); */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    /* overflow: hidden; */
+    margin: 0;
+    /* cursor: none; */
+}
+
+.nameMain h1 {
+    font-size: 3rem;
+}
+
+.nameMain p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comments img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.skillset i:hover {
+    transition: transform 0.8s;
+    transform: scale(2);
+
+}
+
+.call p {
+    font-size: 3.5em;
+    font-weight: lighter;
+    padding: 0.9em;
+
+}
+
+footer {
+    background-color: #c3b55d;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer:hover {
+    background-color: rgb(96, 93, 93);
+
+}
+
+.calt {
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+}
+
+.calt:hover {
+    color: #c3b55d;
+}
+
+.call {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 6px dotted #c3b55d;
+    border-radius: 50%;
+
+}
+
+.call:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.projects img:hover {
+    /* box-shadow:0px 0px 10px 1px; */
+    transition: transform 1.0s;
+    transform: scale(1.2);
+    /* background-image: url(../images/imgs.png); */
+}
+
+.degreecard:hover {
+    /* box-shadow:0px 0px 10px 1px; */
+    transition: transform 1.0s;
+    transform: rotateY(360deg);
+    /* background-image: url(../images/imgs.png); */
+}
+
+ul {
+    /* list-style-type:square; */
+    /* list-style: url(../images/log@0.25x.gif); */
+
+    list-style-image: url('../images/log@0.25x.gif');
+}
+
+
+
+body hr {
+    border-top: 1px solid #5d2822;
+}
+
+.centerimg {
+    border: 1px solid #5d2822;
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 10% 40% 10%;
+
+}
+
+.centerimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 40% 40% 10%;
+
+}
+
+.bgimg {
+    border: 1px solid #5d2822;
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 10% 40% 10%;
+
+}
+
+.bgimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 40% 40% 10%;
+
+}
+
+.centertitles {
+    font-family: 'Franklin Gothic Light', sans-serif
+}
+
+.techStack {
+    position: absolute;
+    bottom: 0;
+    background-color: #01031152;
+    width: 100%;
+    border-radius: ;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.techStack :hover {
+    display: none;
+}
+
+.techStackF {
+    position: relative;
+
+}
+
+.socials {
+    position: fixed;
+    top: 50%;
+    right: 4%;
+    background-color: #5d2822;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.projects img {
+    height: 100%;
+    /* width:100%; */
+}

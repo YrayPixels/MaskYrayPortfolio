@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,800;0,900;1,700&display=swap');
+
+* {
+    /* border: 1px solid rgb(227, 227, 248); */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+
+}
+
+h6 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.curicuu ul {
+    list-style: disc;
+}
+
+body {
+    background-image: url('/images/codebg.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.839);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+.leftside a {
+    text-decoration: none;
+    color: white;
+}
+
+.leftside a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.needMy button:hover {
+    transition: transform 0.8s;
+
+    transform: scale(1.5);
+
+}
+
+#education {
+    background-color: rgba(0, 0, 0, 0.839);
+}
+
+
+/* 
+h1 {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #bc13fe,
+        0 0 82px #bc13fe,
+        0 0 92px #bc13fe,
+        0 0 102px #bc13fe,
+        0 0 151px #bc13fe;
+} */
+
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.calt {
+    text-decoration: none;
+    color: rgb(99, 98, 98);
+}
+
+.calt:hover {
+    color: #c3b55d;
+}
+
+.call {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 6px dotted #c3b55d;
+    border-radius: 50%;
+
+}
+
+.call:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.projects img:hover {
+    /* box-shadow:0px 0px 10px 1px; */
+    transition: transform 1.0s;
+    transform: scale(1.2);
+    /* background-image: url(../images/imgs.png); */
+}
+
+
+ul {
+    list-style-image: url('../images/log@0.25x.gif');
+}
+
+
+
+body hr {
+    border-top: 1px solid white;
+}
+
+.centerimg {
+    border: 1px solid #5d2822;
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 10% 40% 10%;
+
+}
+
+.centerimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 40% 40% 10%;
+
+}
+
+.bgimg {
+    border: 1px solid #5d2822;
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 10% 40% 10%;
+
+}
+
+/* .bgimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 40% 40% 40% 10%;
+
+} */
+
+.centertitles {
+    font-family: 'Franklin Gothic Light', sans-serif
+}
+
+.techStack {
+    position: absolute;
+    bottom: 0;
+    background-color: #01031152;
+    width: 100%;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.techStack {
+    display: none;
+}
+
+.techStackF {
+    position: relative;
+
+}
+
+.techStackF p {
+    display: none;
+}
+
+.socials {
+    position: fixed;
+    top: 50%;
+    right: 4%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.projects img {
+    height: 100%;
+    /* width:100%; */
+}
