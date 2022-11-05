@@ -64,4 +64,9 @@ h5:hover {
     color: gold;
 }
 
+.footnote {
+    background-color: rgba(255, 255, 255, 0.138);
+    padding: 10px;
+}
+
 @media only screen and (max-width: 443px) {}
