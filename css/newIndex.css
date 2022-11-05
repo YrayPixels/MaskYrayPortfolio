@@ -13,10 +13,18 @@
     color: white;
 }
 
+.Minimal i:hover {
+    transition: transform 1.0s;
+    transform: rotateY(360deg);
+    color: white;
+}
+
 h5 {
     color: white;
 }
 
 h5:hover {
-    color: green;
+    color: white;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.315);
 }
