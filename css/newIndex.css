@@ -4,6 +4,10 @@
 
 }
 
+.boxes i {
+    font-size: 40px;
+}
+
 .stacks {
     border: 2px solid white;
     padding: 10px;
