@@ -5,6 +5,7 @@
 }
 
 .boxes {
+    justify-content: center;
     width: 100%;
     left: 0%;
     overflow-x: auto;
@@ -105,4 +106,11 @@ h5:hover {
     padding: 10px;
 }
 
-@media only screen and (max-width: 443px) {}
+@media only screen and (max-width: 600px) {
+    .boxes {
+        justify-content: start;
+        width: 100%;
+        left: 0%;
+        overflow-x: auto;
+    }
+}
