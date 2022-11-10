@@ -61,6 +61,7 @@
 
 
 .boxes a:hover {
+    position: relative;
     text-decoration: none;
     border: 1px solid rgb(249, 227, 103);
     background-color: rgba(255, 217, 0, 0.259);
@@ -102,6 +103,8 @@ h5:hover {
 }
 
 .footnote {
+    position: relative;
+    top: -60%;
     background-color: rgba(255, 255, 255, 0.138);
     padding: 10px;
 }
