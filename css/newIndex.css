@@ -5,6 +5,7 @@
 }
 
 .boxes {
+    width: 100%;
     left: 0%;
     overflow-x: auto;
 }
@@ -14,6 +15,8 @@
 }
 
 .boxes a {
+    /* color: green; */
+    margin: 4px;
     justify-content: center;
     height: 250px;
     width: 250px;
@@ -64,11 +67,11 @@
 
 
 h5 {
-    color: white;
+    color: #dbb13d;
 }
 
 h5:hover {
-    color: white;
+    color: #dbb13d;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.315);
 }
