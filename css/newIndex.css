@@ -4,8 +4,18 @@
 
 }
 
+.boxes {
+    left: 0%;
+    overflow-y: hidden;
+}
+
 .boxes i {
     font-size: 40px;
+}
+
+.boxes a {
+    height: 250px;
+    width: 250px;
 }
 
 .stacks {
