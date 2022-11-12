@@ -16,7 +16,7 @@ h6 {
     list-style: disc;
 }
 
-body {
+.bground {
     background-image: url('/images/codebg.png');
     background-attachment: fixed;
     background-size: cover;

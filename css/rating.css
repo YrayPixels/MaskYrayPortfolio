@@ -36,60 +36,60 @@ a:hover {
 /* Html5 */
 .bar-5 {
     width: 90%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 /* Css3 */
 .bar-4 {
     width: 98%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 /* Bootstrap */
 .bar-3 {
     width: 98%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 /* Material UI Css */
 .bar-1 {
     width: 80%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 /* Tailwind */
 .bar-2 {
     width: 75%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 /* JavaScript */
 .bar-6 {
     width: 90%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 /* React Js */
 .bar-7 {
     width: 75%;
-    height: 15px;
+    height: 10px;
     background-color: #04AA6D;
 }
 
 .php {
     width: 75%;
-    height: 15px;
+    height: 10px;
     background-color: #D1B538;
 }
 
 .laravel {
     width: 75%;
-    height: 15px;
+    height: 10px;
     background-color: #D1B538;
 }
