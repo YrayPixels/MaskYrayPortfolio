@@ -20,6 +20,11 @@
 
 }
 
+.menulist li:hover {
+    animation: flicker 1.5s infinite alternate;
+
+}
+
 .hiClass:hover {
     animation: flicker 1.5s infinite alternate;
 }
